@@ -22,7 +22,7 @@ title_separator          : "|"
 subtitle                 : #"Sound Interaction and Computing Laboratory" # site tagline that appears below site title in masthead
 name                     : "Sound Interaction and Computing Laboratory"
 description              : "SInC | The Sound Interaction and Computing Laboratory headed by Prof. Mark Cartwright researches human-centered machine listening and audio processing tools for understanding and creating sound."
-url                      : "https://www.sinc-lab.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "http://www.sinc-lab.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "sinc-laboratory/sinc-laboratory.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
