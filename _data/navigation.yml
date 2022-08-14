@@ -1,0 +1,12 @@
+# main links
+main:
+   - title: "About"
+     url: /about/
+   - title: "People"
+     url: /people/
+   - title: "Projects"
+     url: /projects/
+   - title: "Publications"
+     url: /publications/
+   - title: "Resources"
+     url: /resources/

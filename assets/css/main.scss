@@ -1,0 +1,262 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)]
+search: false
+---
+
+@charset "utf-8";
+
+$link-color: #000000;
+$masthead-link-color: #000;
+$primary-color: #800000; // 777
+$body-text-color: #777;
+
+/* system typefaces */
+$sans-serif: proxima-nova, -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
+  "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+
+$header-font-family: seravek-web, sans-serif;
+
+/* type scale */
+$type-size-1: 2.441em !default; // ~39.056px
+$type-size-2: 1.953em !default; // ~31.248px
+$type-size-3: 1.563em !default; // ~25.008px
+$type-size-4: 1.25em !default; // ~20px
+$type-size-5: 1em !default; // ~16px
+$type-size-6: 0.75em !default; // ~12px
+$type-size-7: 0.6875em !default; // ~11px
+$type-size-8: 0.625em !default; // ~10px
+
+/* headline scale */
+$h-size-1: 1.563em !default; // ~25.008px
+$h-size-2: 1.25em !default; // ~20px
+$h-size-3: 1.125em !default; // ~18px
+$h-size-4: 1.0625em !default; // ~17px
+$h-size-5: 1.03125em !default; // ~16.5px
+$h-size-6: 1em !default; // ~16px
+
+$twitter-color: $link-color;
+$github-color: $link-color;
+$linkedin-color: $link-color;
+
+$small: 600px !default;
+$medium: 768px !default;
+$medium-wide: 900px !default;
+$large: 1024px !default;
+$x-large: 1024px !default; // changed from 1280
+$max-width: $x-large !default;
+
+@import url("https://use.typekit.net/ero0dbd.css"); // Adobe Fonts
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 2em 0 0.5em;
+  line-height: 1.2;
+  font-family: $header-font-family;
+  font-weight: 700;
+  font-style: normal;
+  color: $link-color;
+}
+
+.archive__subtitle {
+  font-size: $type-size-4;
+}
+
+
+a {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.6em;
+  font-weight: 400;
+  font-style: normal;
+  color: $body-text-color;
+}
+
+a.site-title {
+  text-transform: none;
+  font-size: 2.5em;
+  font-weight: 400;
+  font-style: normal;
+  color: $primary-color;
+
+}
+
+a.site-title:hover {
+  color: $primary-color;
+}
+
+.masthead__menu {
+  font-family: $header-font-family;
+  weight: 700;
+  text-transform: uppercase;
+}
+
+.page__footer-follow {
+  li {
+    display: inline-block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: $sans-serif-narrow;
+    font-size: $type-size-5;
+    text-transform: uppercase;
+  }
+}
+
+
+table {
+  display: table;
+  font-size: $type-size-5;
+  th {
+    color: $link-color;
+  }
+}
+
+.people__avatar {
+  border-radius:  50%;
+}
+
+.team_member__avatar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+
+
+  @include breakpoint($small) {
+    float: left;
+    margin-right: 1em;
+    width: 33%;
+  }
+
+  @include breakpoint($medium) {
+    float: left;
+    margin-right: 1em;
+    width: 25%;
+  }
+}
+
+
+// modified from taxonomy__section
+.people__section {
+  margin-bottom: 2em;
+  padding-bottom: 1em;
+
+  .archive__item-title {
+    margin-top: 0;
+  }
+
+  .archive__subtitle {
+    clear: both;
+    border: 0;
+    font-size: $h-size-2;
+  }
+
+  .people__name {
+    margin-top:  1em;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    border: 0;
+    text-align: center;
+    font-size: $h-size-4;
+  }
+
+  .people__academic_title {
+    margin-top:  0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    border: 0;
+    text-align: center;
+    font-weight:  400;
+    font-size: $h-size-4;
+  }
+
+  + .people__section {
+    margin-top: 2em;
+  }
+}
+
+.project__image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em;
+  width: 100%;
+
+
+  @include breakpoint($small) {
+    float: left;
+    margin-right: 1em;
+    width: 33%;
+  }
+
+  @include breakpoint($medium) {
+    float: left;
+    margin-right: 1em;
+    width: 25%;
+  }
+}
+
+.project__selected_publications {
+  clear: left;
+  margin-bottom: 4em;
+}
+
+.publication__image {
+  
+
+}
+
+.publication__resources {
+
+}
+
+.page__date {
+  font-size: $type-size-4;
+}
+
+.page__hero--overlay {
+  .page__title {
+    font-family: $header-font-family;
+    font-weight: 400;
+    font-style: normal;
+  }
+}
+
+.wide2 { // full width
+  .page {
+    float: left;
+    width: 100%;
+    @include breakpoint($large) {
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    @include breakpoint($x-large) {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+
+  .page__related {
+    @include breakpoint($large) {
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    @include breakpoint($x-large) {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+}

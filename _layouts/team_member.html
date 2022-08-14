@@ -1,0 +1,16 @@
+---
+layout: simple_single
+classes: wide2
+related: false
+---
+<p>
+  {{ page.academic_title }}
+</p>
+<p>
+    {% if page.homepage_url %}<a href='{{ page.homepage_url }}'><i class="fas fa-fw fa-globe"></i> Website</a><br />{% endif %}
+    {% if page.email %}<a href='mailto:{{ page.email }}'><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email</a>{% endif %}
+</p>
+
+<img src="{{ page.image_path }}" class="team_member__avatar">
+
+<p>{{ page.content | newline_to_br | smartify }}</p>
