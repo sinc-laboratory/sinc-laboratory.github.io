@@ -16,5 +16,5 @@ dataname: 'Open-set Tagging (OST) dataset'
 categories: 
   - Environmental Machine Listening
   - Audio Representation Learning
-citation: 'Sridhar, S., & Cartwright, M. (2025, April). Compositional Audio Representation Learning. In <i>2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), pp. 1-5. IEEE.</i>'
+citation: 'Sridhar, S., and Cartwright, M. Compositional Audio Representation Learning. In <i>Proceedings of the IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)</i>, 2025.'
 ---
