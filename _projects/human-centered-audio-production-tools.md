@@ -1,10 +1,9 @@
 ---
 title: Human-Centered Audio Production Tools
-order: 4
+order: 5
 image_path: /assets/images/synthassist.png
 image_description: "Screenshot from SynthAssist."
 selected_publications:
-- /publications/2022-10-17-ohshiro2022how
 - /publications/2015-05-01-cartwright2015vocalsketch
 - /publications/2014-07-01-cartwright2014synthassistquerying
 - /publications/2014-04-01-cartwright2014mixploration

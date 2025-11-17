@@ -1,6 +1,6 @@
 ---
 title: Crowdsourced Audio Annotation and Quality Evaluation
-order: 3
+order: 4
 image_path: /assets/images/caqe.png
 image_description: "A bunch of ears in a cloud."
 selected_publications:

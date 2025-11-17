@@ -1,6 +1,6 @@
 ---
 title: Music Information Retrieval
-order: 5
+order: 6
 image_path: /assets/images/music_information_retrieval.png
 image_description: "Graphic depicting a computer transcribing a trio of instruments."
 selected_publications:
