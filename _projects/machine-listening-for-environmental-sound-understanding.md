@@ -4,8 +4,8 @@ order: 1
 image_path: /assets/images/environmental_machine_listening.png
 image_name: "Graphic depicting a computer processing sound from urban noise sources."
 selected_publications:
-- /publications/2023-09-21-sridhar2023multi.md
-- /publications/2023-06-04-cartwright2023does.md
+- /publications/2023-09-21-sridhar2023multi
+- /publications/2023-06-04-cartwright2023does
 - /publications/2022-09-18-wang2022active
 - /publications/2022-06-13-rulff2022urban
 - /publications/2021-10-17-cramer2021weakly

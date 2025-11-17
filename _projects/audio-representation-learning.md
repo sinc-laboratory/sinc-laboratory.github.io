@@ -4,7 +4,7 @@ order: 2
 image_path: /assets/images/audio_representation_learning_model.png
 image_description: "A graphical depiction of an audio encoder-decoder model."
 selected_publications:
-- /publications/2025-04-06-sridhar2025compositional.md
+- /publications/2025-04-06-sridhar2025compositional
 - /publications/2022-08-29-srivastava2022study
 - /publications/2021-06-08-srivastava2021specialized
 - /publications/2019-10-01-cartwright2019tricycle

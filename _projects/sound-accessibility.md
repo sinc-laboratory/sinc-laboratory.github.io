@@ -4,7 +4,7 @@ order: 3
 image_path: /assets/images/sound_accessibility.png
 image_description: "A graphical depiction of an audio encoder-decoder model."
 selected_publications:
-- /publications/2025-06-19-may2025choices
+- /publications/2025-06-18-may2025choices
 - /publications/2025-04-26-ohshiro2025audioengineering
 - /publications/2024-10-27-may2024towards
 - /publications/2024-05-11-may2024unspoken
