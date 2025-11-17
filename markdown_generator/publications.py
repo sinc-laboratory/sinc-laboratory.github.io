@@ -73,7 +73,8 @@ cat_dict = {'eml':'Environmental Machine Listening',
             'crowd': 'Crowdsourced Audio Annotation and Quality Evaluation',
             'arl': 'Audio Representation Learning',
             'nime': 'New Interfaces for Musical Expression',
-            'access': 'Audio Accessibility'}
+            'access': 'Audio Accessibility',
+            'gen': 'Generative Audio and Music',}
 
 import os
 for row, item in publications.iterrows():
