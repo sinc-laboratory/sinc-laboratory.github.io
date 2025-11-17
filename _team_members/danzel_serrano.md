@@ -9,4 +9,4 @@ status: Current
 order: 3
 ---
 
-Danzel Serrano is a OhD student in Computer Science. He is researching controllable disentangled speech synthesis and speech-driven facial animation. 
+Danzel Serrano is a PhD student in Computer Science. He is researching controllable disentangled speech synthesis and speech-driven facial animation. 
