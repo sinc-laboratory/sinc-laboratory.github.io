@@ -27,23 +27,18 @@ classes: wide2
 {% assign currentTeamMembers = site.team_members | where:"status", "Alumni" | sort:"order"%}
 <section id="Alumni" class="people__section">
   <h2 class="archive__subtitle">Alumni</h2>
-  <div class="grid__wrapper">
+  <ul>
   {% for f in currentTeamMembers %}
-    <div class="grid__item">
-      <article class="archive__item" itemscope itemtype="https://schema.org/Person">
-        {% if f.homepage_url %}
-        <a href="{{ f.homepage_url }}">
-        {% endif %}
-          <img src="{{ f.image_path | relative_url }}" class="people__avatar">
-          <h3 class="people__name">{{ f.name }}</h3>
-          <h4 class="people__academic_title">{{ f.academic_title }}</h4>
-        {% if f.homepage_url %}
-        </a>
-        {% endif %}
-      </article>
-    </div>
+    <li>
+      {% if f.homepage_url %}
+      <a href="{{ f.homepage_url }}">{{ f.name }}</a>
+      {% else %}
+      {{ f.name }}
+      {% endif %}
+      {% if f.academic_title %} - {{ f.academic_title }}{% endif %}
+    </li>
   {% endfor %}
-  </div>
+  </ul>
 </section>
 
 
