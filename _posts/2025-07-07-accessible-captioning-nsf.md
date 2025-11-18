@@ -1,6 +1,6 @@
 ---
 title: "NSF Grant on Accessible Captioning of Non-Speech Information"
-blurb: "Mark Cartwright, Magdalena Fuentes, and Sooyeon Lee receive new $800,000 NSF grant on accessible captioning on non-speech information."
+blurb: "Mark Cartwright, Magdalena Fuentes, and Sooyeon Lee receive [$800,000 NSF grant on accessible captioning on non-speech information](https://www.nsf.gov/awardsearch/show-award?AWD_ID=2504643)."
 categories:
   - News
 ---

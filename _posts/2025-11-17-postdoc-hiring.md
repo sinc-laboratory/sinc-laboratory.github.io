@@ -1,6 +1,6 @@
 ---
 title: "Seeking Applicants for New NJIT/NYU Postdoc Position"
-blurb: "We are seeking applicants for a joint NJIT/NYU postdoc position on large audio language modeling for accessible captioning."
+blurb: "We are seeking applicants for a joint NJIT/NYU postdoc position on large audio language modeling for accessible captioning. [Apply](https://njit.csod.com/ux/ats/careersite/1/home/requisition/8458?c=njit)."
 categories:
   - News
 ---
