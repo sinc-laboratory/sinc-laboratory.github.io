@@ -1,0 +1,7 @@
+---
+title: "Sensorium X Premiered"
+blurb: "SInC and collaborators contributed AI expertise to the Sensorium Ex opera recently premiered at Common Sense Festival at reported on by [Forbes](https://www.forbes.com/sites/sabbirrangwala/2025/06/16/3d-sensing--ai-give-operatic-voice-to-non-verbal-performers/) and [PBS News Hour](https://www.pbs.org/newshour/show/opera-uses-ai-to-give-people-with-non-verbal-disabilities-a-voice)."
+categories:
+  - News
+---
+In collaboration with Luke DuBois at the [NYU Ability Project](https://idm.engineering.nyu.edu/index.php/the-nyu-ability-project/) and [Max Morrison](https://www.maxrmorrison.com/) and [Cameron Churchwell](https://www.cameronchurchwell.com/), NJIT/SInC's Mark Cartwright, Danzel Serrano, and Michael Clemens and collaborators contributed AI expertise to the [Sensorium Ex](https://www.paolaprestini.com/compositions/sensorium-ex) opera recently premiered at Common Sense Festival. The audio AI team developed a model for real-time controllable and expressive speech so that non-verbal performers have a voice in the opera. See press by [Forbes](https://www.forbes.com/sites/sabbirrangwala/2025/06/16/3d-sensing--ai-give-operatic-voice-to-non-verbal-performers/) and [PBS News Hour](https://www.pbs.org/newshour/show/opera-uses-ai-to-give-people-with-non-verbal-disabilities-a-voice) for more details on the project. 
