@@ -7,7 +7,7 @@ classes: wide2
 
 | Data | |
 |-|:-
-| <a href="https://doi.org/10.5281/zenodo.17237181">ASFx Eval Audiocards</a> | A curated dataset of 500 human-verified <a href="publications/2026-05-04-sridhar2026audiocards">audiocards</a> for the <a href="https://www.adobe.com/products/audition/offers/adobeauditiondlcsfx.html">Adobe Sound Effects<a/> library. Audiocards are structured metadata with attributes pertinent to sound design such as noun-verb pairs and example visual context.
+| <a href="https://doi.org/10.5281/zenodo.17237181">ASFx Eval Audiocards</a> | A curated dataset of 500 human-verified <a href="/publications/2026-05-04-sridhar2026audiocards">audiocards</a> for the <a href="https://www.adobe.com/products/audition/offers/adobeauditiondlcsfx.html">Adobe Sound Effects<a/> library. Audiocards are structured metadata with attributes pertinent to sound design such as noun-verb pairs and example visual context.
 | <a href="https://doi.org/10.5281/zenodo.13755902">Open-set Tagging (OST)</a> | A synthetic dataset of 500k 1s clips with controlled polyphony and seen/unseen class assignments to investigate source-centric audio representation learning and open-set audio classification.
 | <a href="https://doi.org/10.5281/zenodo.5574135">FSD-MIX-CLIPS</a> | A dataset of 614,533 programmatically mixed 1-s audio clips with a controlled level of polyphony and signal-to-noise ratio
 | <a href="https://doi.org/10.5281/zenodo.5574135">FSD-SED</a> | A dataset of 281,039 programmatically mixed 10-s strongly-labeled audio clips with a controlled level of polyphony and signal-to-noise ratio
