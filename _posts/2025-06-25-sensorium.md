@@ -1,5 +1,5 @@
 ---
-title: "Sensorium X Premiered"
+title: "Sensorium Ex Premiered"
 blurb: "SInC and collaborators contributed AI expertise to the [Sensorium Ex](https://www.paolaprestini.com/compositions/sensorium-ex) opera recently premiered at Common Sense Festival at reported on by [Forbes](https://www.forbes.com/sites/sabbirrangwala/2025/06/16/3d-sensing--ai-give-operatic-voice-to-non-verbal-performers/) and [PBS News Hour](https://www.pbs.org/newshour/show/opera-uses-ai-to-give-people-with-non-verbal-disabilities-a-voice)."
 categories:
   - News
